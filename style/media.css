@@ -61,7 +61,17 @@
   }
   .section2-bottom-card {
     padding: 40px 0 60px;
+    overflow-x: scroll;
   }
+  .section2-bottom-card::-webkit-scrollbar {
+    background: none;
+  }
+  .section2-bottom-card::-webkit-scrollbar-thumb {
+    height: 5px;
+    background-color: #263140;
+    border-radius: 10px;
+  }
+
   .section3-subscribe {
     gap: 20px;
     flex-direction: column;
