@@ -157,6 +157,7 @@ footer .l-wrapper {
   color: var(--main-color);
 }
 .section2-bottom-card {
+  font-size: 14px;
   display: flex;
   gap: 72px;
   padding-top: 88px;
@@ -271,7 +272,6 @@ footer .l-wrapper {
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
   display: none;
-  display: flex;
   flex-direction: column;
   justify-content: center;
 }
